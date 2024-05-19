@@ -1,0 +1,16 @@
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.separacion {
+    margin-top: 50px;
+}
+
+.separacioncard {
+    margin-top: 100px;
+}
+
+.maxcard {
+    width: 400px;
+    max-width: 500px;
+}

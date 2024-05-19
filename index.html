@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <title>DRX Esports | The team</title>
+    <link rel="icon" type="images/x-icon" href="./img/logo.png" />
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <nav class="navbar bg-light navbar-expand-lg border-bottom fixed-top" data-bs-theme="light">
+        <div class="container-fluid">
+          <a class="navbar-brand p-0 text-primary" href="index.html">
+            <img src="./img/logo.png" width="50px" alt="">
+            <strong>DRX</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="container-fluid">
+            </div>
+            <ul class="navbar-nav me-3 mb-2 text-light nav-underline " id="navSpyIa">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#team">Team</a>
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link" href="#history">History</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide separacion">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/drxslide1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/drxslide2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/drxslide3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <main class="container mt-3" data-bs-spy="scroll" data-bs-target="#navSpyIa">
+        <h4 id="team" class="text-primary separacion mb-3 text-uppercase">Players & Coaches</h4>
+        <!--PRIMER CONTENDOR FLEX DE IMAGENES-->
+        <div class="d-flex flex-wrap flex-row justify-content-around">
+            <!--CARD CONTENEDOR DE IMAGEN-->
+            <div class="d-flex mb-3 maxcard">
+                <!--IMAGEN-->
+                <div class="border border-dark-subtle rounded ">
+                    <img src="./img/stax.png" alt="Imagen01" width="270" data-bs-toggle="modal" data-bs-target="#modalStax">
+                </div>
+                <!--TEXTO-->
+                <div class="ps-1 pe-3 ms-2 me-3 bg-light text-dark-50 align-self-end" style="width: 270;">
+                    <p>Stax</p>
+                    <small> <a href="https://x.com/staxVLRT" class="link-secondary">@staxVLRT</a></small>
+
+                </div>
+            </div>
+            <div class="d-flex mb-3 maxcard">
+                <!--IMAGEN-->
+                <div class="border border-dark-subtle rounded" >
+                    <img src="./img/Rb.png" alt="Imagen01" width="270" data-bs-toggle="modal" data-bs-target="#modalRb">
+                </div>
+                <!--TEXTO-->
+                <div class="ps-1 pe-3 ms-2 me-3 bg-light text-dark-50 align-self-end" style="width: 270;">
+                    <p>Rb</p>
+                    <small> <a href="https://x.com/Rbvlrt" class="link-secondary">@Rbvlrt</a></small>
+                </div>
+            </div>   
+            <div class="d-flex mb-3 maxcard">
+                <!--IMAGEN-->
+                <div class="border border-dark-subtle rounded">
+                    <img src="./img/BuZz.png" alt="Imagen01" width="270" data-bs-toggle="modal" data-bs-target="#modalBuzz">
+                </div>
+                <!--TEXTO-->
+                <div class="ps-1 pe-3 ms-2 me-3 bg-light text-dark-50 align-self-end" style="width: 270;">
+                    <p>Buzz</p>
+                    <small> <a href="https://x.com/buzz_kr" class="link-secondary">@Buzz_kr</a></small>
+                </div>
+            </div>
+
+            <div class="d-flex mb-3 maxcard">
+                <!--IMAGEN-->
+                <div class="border border-dark-subtle rounded">
+                    <img src="./img/MaKo.png" alt="Imagen01" width="270" data-bs-toggle="modal" data-bs-target="#modalMako">
+                </div>
+                <!--TEXTO-->
+                <div class="ps-1 pe-3 ms-2 me-3 bg-light text-dark-50 align-self-end" style="width: 270;">
+                    <p>Mako</p>
+                    <small> <a href="https://x.com/MaKoVlrt" class="link-secondary">@MaKoVlrt</a></small>
+                </div>
+            </div>  
+
+            <div class="d-flex mb-3 maxcard">
+                <!--IMAGEN-->
+                <div class="border border-dark-subtle rounded">
+                    <img src="./img/Zest.png" alt="Imagen01" width="270" data-bs-toggle="modal" data-bs-target="#modalZest">
+                </div>
+                <!--TEXTO-->
+                <div class="ps-1 pe-3 ms-2 me-3 bg-light text-dark-50 align-self-end" style="width: 270;">
+                    <p>Zest</p>
+                    <small> <a href="https://x.com/Zestvlrt" class="link-secondary">@Zestvlrt</a></small>
+                </div>
+            </div>  
+
+            <div class="d-flex mb-3 maxcard">
+                <!--IMAGEN-->
+                <div class="border border-dark-subtle rounded">
+                    <img src="./img/Foxy9.png" alt="Imagen01" width="270" data-bs-toggle="modal" data-bs-target="#modalFoxy9">
+                </div>
+                <!--TEXTO-->
+                <div class="ps-1 pe-3 ms-2 me-3 bg-light text-dark-50 align-self-end" style="width: 270;">
+                    <p>Foxy9</p>
+                    <small> <a href="https://x.com/Foxy9fps" class="link-secondary">@Foxy9fps</a></small>
+                </div>
+            </div>  
+
+            <div class="d-flex mb-3 maxcard">
+                <!--IMAGEN-->
+                <div class="border border-dark-subtle rounded">
+                    <img src="./img/termi.png" alt="Imagen01" width="270" data-bs-toggle="modal" data-bs-target="#modalTermi">
+                </div>
+                <!--TEXTO-->
+                <div class="ps-1 pe-3 ms-2 me-3 bg-light text-dark-50 align-self-end" style="width: 270;">
+                    <p>Termi</p>
+                    <small> <a href="https://x.com/termi_kr" class="link-secondary">@termi_kr</a></small>
+                </div>
+            </div>  
+
+            <div class="d-flex mb-3 maxcard">
+                <!--IMAGEN-->
+                <div class="border border-dark-subtle rounded">
+                    <img src="./img/ARGENCY.png" alt="Imagen01" width="270" data-bs-toggle="modal" data-bs-target="#modalArgency">
+                </div>
+                <!--TEXTO-->
+                <div class="ps-1 pe-3 ms-2 me-3 bg-light text-dark-50 align-self-end" style="width: 270;">
+                    <p>Argency</p>
+                    <small> <a href="https://x.com/VS_ARGENCY" class="link-secondary">@VS_ARGENCY</a></small>
+                </div>
+            </div>  
+
+            <div class="d-flex mb-3 maxcard">
+                <!--IMAGEN-->
+                <div class="border border-dark-subtle rounded">
+                    <img src="./img/glow.png" alt="Imagen01" width="270" data-bs-toggle="modal" data-bs-target="#modalGlow">
+                </div>
+                <!--TEXTO-->
+                <div class="ps-1 pe-3 ms-2 me-3 bg-light text-dark-50 align-self-end" style="width: 270;">
+                    
+                    <p>Glow</p>
+                    <small> <a href="https://x.com/glowkr" class="link-secondary">@glowkr</a></small>
+
+                    <butto ntype="button" class="btn btn-sm mt-3 btn-primary" data-bs-toggle="popover" data-bs-title="New signing" data-bs-content="Glow has been incorporated into the team and has been making positive contributions for the past 2 months. We are now pleased to announce that he is officially part of our team">New signing</button>
+
+                </div>
+            </div>  
+
+            <!--CArd history-->
+            <div class="card mb-3 separacioncard" id="history">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./img/cardpicture.avif" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">OUR HISTORY</h5>
+                      <p class="card-text  text-dark">
+                        The DRX Valorant team, established in 2020, is the first Valorant esports team in Korea and a historic team representing both Korea and Asia. With the incredible achievement of securing 102 consecutive wins, they are recognized as the most creative team in the world, showcasing that a Korean FPS team can also gain global recognition. We always aim for victory and continually strive and challenge ourselves to become stronger than any other team at the top of the world.
+                    </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        </div>
+            
+
+      </main>
+
+      <div class="modal fade" id="modalStax" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Stax</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Kim Gu-taek</p>
+                <p>South Korea</p>
+                <p>February 16, 200 (age 24)</p>
+                <p>IGL | Active</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalRb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Rb</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Goo Sang-min</p>
+                <p>South Korea</p>
+                <p>December 7, 2001 (age 22)</p>
+                <p>Active</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalBuzz" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Buzz</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Yu Byung-chul</p>
+                <p>South Korea</p>
+                <p>January 13, 2003 (age 21))</p>
+                <p>Active</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalMako" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Mako</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Kim Myeong-kwan</p>
+                <p>South Korea</p>
+                <p>January 15, 2002 (age 22)</p>
+                <p>Active</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalZest" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">>Zest</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Kim Gi-seok</p>
+                <p>South Korea</p>
+                <p>December 27, 2000 (age 23)</p>
+                <p>Active</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFoxy9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Stax</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Jung Jae-sung</p>
+                <p>South Korea</p>
+                <p>November 20, 2004 (age 19)</p>
+                <p>Active</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTermi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Termi</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Pyeon Seon-ho</p>
+                <p>South Korea</p>
+                <p>July 27, 1986 (age 37)</p>
+                <p>Coach | Active</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalArgency" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Argency</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Kwon Soon-woo</p>
+                <p>South Korea</p>
+                <p>October 8, 1991 (age 32)</p>
+                <p>Coach | Active</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalGlow" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Glow</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Kim Min-soo</p>
+                <p>South Korea</p>
+                <p>February 28, 1988 (age 36)</p>
+                <p>Coach | Active</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalStax" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Stax</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Kim Gu-taek</p>
+                <p>South Korea</p>
+                <p>February 16, 200 (age 24)</p>
+                <p>IGL | Active</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>    
+    <script src="./js/app.js"></script>
+</body>
+</html>
